@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
 .container {
 	max-width:  1000px;
 	/* border: 10px dashed black; */
@@ -85,25 +86,6 @@ nav a {
 	padding: 0 25px 0px;
 	/* border: 3px solid blue; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .intro-container {
 	text-align: center;
@@ -126,7 +108,10 @@ nav a {
 	width: 30%;
 	/* border: 1px dashed red; */
 	/* TRBL*/
-	padding: 20px 10px 10px 20px;
+	height:300px;
+	width:300px;
+	padding:5px;
+	
 }
 
 .intro button {
@@ -134,19 +119,6 @@ nav a {
 	border: 1px solid black;
 	font-family: 'Titillium Web';
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 header p {
 	text-align: center;
@@ -163,29 +135,9 @@ header p {
 
 .top-content {
 	border-top: 1px solid black;
-	padding: 30px 0 30px;
 	display: flex;
+	padding: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -196,29 +148,12 @@ header p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bottom-content {
 	border-bottom: 1px solid black;
-	padding: 20px 0 30px;
+	padding: 33px;
+
 	display: flex;
 }
-
-
-
-
-
 
 
 
@@ -228,15 +163,14 @@ header p {
 }
 footer p {
 	text-align: center;
+	padding-top: 30px
 }
-
-
-
 
 
 
 .parent-container{
 	display: flex;
+	
 	
 }
 
@@ -253,7 +187,7 @@ footer p {
 
 ul li{
 	list-style: square;
-	padding: 10px 
+	margin: 20px;
 }
 .bottom-container{
 	display:flex;
@@ -261,14 +195,34 @@ ul li{
 }
 
 .container-left{
-	padding: 30px;
+	padding: 30px
 }
 
 .container-left p{
 	padding-bottom: 30px;
+	
 
 }
 
 hr{
 	border: 1px solid black
+}
+
+.services-header-img{
+	padding-bottom: 30px;
+}
+
+
+em{
+	font-size: 30px;
+}
+
+.container p{
+	padding-bottom: 20px;
+
+}
+
+button{
+	border: 1px solid black;
+	padding: 15px;
 }
