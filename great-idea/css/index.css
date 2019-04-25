@@ -64,3 +64,211 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	max-width:  1000px;
+	/* border: 10px dashed black; */
+	margin: auto;
+}
+
+header {
+	/* border: 5px dashed orange; */
+	padding: 20px 20px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+	padding: 0 25px 0px;
+	/* border: 3px solid blue; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.intro-container {
+	text-align: center;
+	/* border: 3px solid green; */
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.intro{
+	padding: 40px;
+}
+
+ .intro h1 {
+	font-size: 50pt;
+	/* border: 1px dashed red; */
+}  
+
+
+.introimg {
+	width: 30%;
+	/* border: 1px dashed red; */
+	/* TRBL*/
+	padding: 20px 10px 10px 20px;
+}
+
+.intro button {
+	padding: 5px 40px 5px;
+	border: 1px solid black;
+	font-family: 'Titillium Web';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header p {
+	text-align: center;
+	border: 1px solid black;
+	width: 150px;
+}
+.codeimg {
+	width: 30%;
+	height: 30%;
+	/*TRBL*/
+	padding: 0 20px 20px 100px;
+}
+
+
+.top-content {
+	border-top: 1px solid black;
+	padding: 30px 0 30px;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.middle-img {
+	display: block;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	padding: 20px 0 30px;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+.contact-content {
+	margin-top: 30px;
+}
+footer p {
+	text-align: center;
+}
+
+
+
+
+
+
+.parent-container{
+	display: flex;
+	
+}
+
+.box{
+	border: 1px solid black;
+	background: lightgray;
+	margin: 20px;
+	padding: 40px;
+}
+
+.box p{
+	padding:30px 0 ;
+}
+
+ul li{
+	list-style: square;
+	padding: 10px 
+}
+.bottom-container{
+	display:flex;
+	justify-content: space-between;
+}
+
+.container-left{
+	padding: 30px;
+}
+
+.container-left p{
+	padding-bottom: 30px;
+
+}
+
+hr{
+	border: 1px solid black
+}
